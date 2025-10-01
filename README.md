@@ -37,7 +37,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ### Links
 
 - [Solution URL](https://github.com/ichane31/Product_preview_card)
-- [Live Site](https://ichane31.github.io/Product_preview_card/)
+- [Live Site](https://product-preview-card-iota-olive.vercel.app/)
 
 ## My Process
 
@@ -73,12 +73,18 @@ Through this project, I enhanced my skills in:
 
 ```css
 :root {
-  --primary-color: hsl(158, 36%, 37%);
-  --primary-dark: hsl(158, 36%, 20%);
-  --cream: hsl(30, 38%, 92%);
-  --dark-blue: hsl(212, 21%, 14%);
-  --grayish-blue: hsl(228, 12%, 48%);
-  --white: hsl(0, 0%, 100%);
+  --clr-primary-400: hsl(158, 36%, 37%);
+  --clr-primary-500: hsl(158, 36%, 20%);
+  --clr-secondary-200: hsl(30, 38%, 92%);
+  --clr-neutral-900: hsl(212, 21%, 14%);
+  --clr-neutral-400: hsl(228, 12%, 48%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+
+  --ff-accent: "Fraunces", serif;
+  --ff-base: "Montserrat", sans-serif;
+
+  --fw-regular: 500;
+  --fw-bold: 700;
 }
 
 .product {
